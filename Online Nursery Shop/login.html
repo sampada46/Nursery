@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Online Nursery Shop</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Flower<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="seasons.html">All Seasons Flowering Plant</a></li>
+                <li><a href="occassion.html">Occassion Flowering Plant</a></li>
+              </ul>
+            </li>
+            
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Plant<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="pure.html">Air Purifying Plant</a></li>
+                <li><a href="basket.html">Hanging Basket Plant</a></li>
+              </ul>
+            </li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Fruit<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="types.html">Types of Dry Fruit Plant</a></li>
+                <li><a href="fruitplt.html">Seasonable Fruit Plant</a></li>
+              </ul>
+            </li>
+
+            <li><a href="test.html">Testimonial</a></li>
+            <form class="navbar-form navbar-left" action="/action_page.php">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+        
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+  <!-- Navbar End -->  
+        
+<div class="container">
+  <form action="/action_page.php">
+    <div class="form-group">
+        <label for="text">Name</label>
+        <input type="text" class="form-control" id="text" placeholder="Enter Name" name="text">
+      </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+    <button type="reset" class="btn btn-default">Reset</button>
+  </form>
+</div>
+      <br>
+<footer>
+  <div class="footercontainer">
+     <div class="socialicons">
+       <a href=""><i class="fa-brands fa-facebook"></i></a>
+       <a href=""><i class="fa-brands fa-instagram"></i></a>
+       <a href=""><i class="fa-brands fa-twitter"></i></a>
+       <a href=""><i class="fa-brands fa-google-plus"></i></a>
+       <a href=""><i class="fa-brands fa-youtube"></i></a>
+     </div>
+     <div class="footerNav">
+       <ul>
+         <li><a href="">Home</a></li>
+         <li><a href="">About us</a></li>
+         <li><a href="">Gallery</a></li>
+         <li><a href="">Flower</a></li>
+         <li><a href="">Plant</a></li>
+         <li><a href="">Fruit</a></li>
+         <li><a href="">Testimonial</a></li>
+         <li><a href="">Sign up</a></li>
+         <li><a href="">Login</a></li>
+   </ul>  
+ </div>
+ </div>
+ <div class="footerBottom">
+   <p>Copyright &copy;2024; Designed by <span class="designer">Sampada Sanjay Sapkal</span></p>
+ </div>
+</footer>
+
+</body>
+</html>
